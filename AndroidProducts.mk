@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2018-2021 ArrowOS
+# Copyright (C) 2018-2021 LineageOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_nabu.mk
+    $(LOCAL_DIR)/lineage_nabu.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_nabu-eng \
-    arrow_nabu-userdebug \
-    arrow_nabu-user
+    lineage_nabu-eng \
+    lineage_nabu-userdebug \
+    lineage_nabu-user
