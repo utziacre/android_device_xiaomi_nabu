@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/nabu/device.mk)
 # Inherit common configurations
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_BRAND := Xiaomi
